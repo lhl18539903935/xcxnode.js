@@ -1,0 +1,54 @@
+<!--test/b/b.wxml-->
+
+  <template name="a2">
+    <text>test/b/b.wxml</text>
+    <view>{{scrollId}}</view>
+  </template>
+<template name="a3">
+  <text>test/b/b.wxml</text>
+  <view>{{scrollId}}</view>
+</template>
+<template name="a4">
+  <text>test/b/b.wxml</text>
+  <view>{{scrollId}}</view>
+</template>
+<template name="a5">
+  <text>test/b/b.wxml</text>
+  <view>{{scrollId}}</view>
+</template>
+<template name="a6">
+  <text>test/b/b.wxml</text>
+  <view>{{scrollId}}</view>
+</template>
+<template name="a7">
+  <text>test/b/b.wxml</text>
+  <view>{{scrollId}}</view>
+</template>
+<template name="a8">
+  <text>test/b/b.wxml</text>
+  <view>{{scrollId}}</view>
+</template>
+<template name="a9">
+  <text>test/b/b.wxml</text>
+  <view>{{scrollId}}</view>
+</template>
+<template name="a10">
+  <text>test/b/b.wxml</text>
+  <view>{{scrollId}}</view>
+</template>
+<template name="a11">
+  <text>test/b/b.wxml</text>
+  <view>{{scrollId}}</view>
+</template>
+<template name="a12">
+  <text>test/b/b.wxml</text>
+  <view>{{scrollId}}</view>
+</template>
+<template name="a13">
+  <text>test/b/b.wxml</text>
+  <view>{{scrollId}}</view>
+</template>
+<template name="a14">
+  <text>test/b/b.wxml</text>
+  <view>{{scrollId}}</view>
+</template>

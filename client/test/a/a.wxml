@@ -1,0 +1,187 @@
+<!--test/a/a.wxml-->
+
+<template name="a1">
+<swiper
+  class="swiper-box"
+  indicator-active-color="#99f"
+  indicator-color="#fff"
+  interval="4000"
+  autoplay
+  circular
+  indicator-dots>
+  <swiper-item><image class="imgs" src="../image/banner.jpg" /></swiper-item>
+  <swiper-item><image class="imgs" src="../image/banner.jpg" /></swiper-item>
+  <swiper-item><image class="imgs" src="../image/banner.jpg" /></swiper-item>
+  <swiper-item><image class="imgs" src="../image/banner.jpg" /></swiper-item>
+</swiper>
+<scroll-view
+  class="aa aa2"
+  scroll-with-animation
+  scroll-left="0"
+  scroll-x>
+  <view class="aa-view">
+    <rich-text type="p">
+      <rich-text type="span" class="iconfont icon-guojiwuliu"></rich-text><rich-text type="br"></rich-text>
+      <rich-text type="span" class="aa-title">标题文字</rich-text>
+    </rich-text>
+    <rich-text type="p">
+      <rich-text type="span" class="iconfont icon-guojiwuliu"></rich-text>
+      <rich-text type="br"></rich-text>
+      <rich-text type="span" class="aa-title">标题文字</rich-text>
+    </rich-text>
+  </view>
+  <view class="aa-view">
+    <rich-text type="p">
+      <rich-text type="span" class="iconfont icon-guojiwuliu"></rich-text><rich-text type="br"></rich-text>
+      <rich-text type="span" class="aa-title">标题文字</rich-text>
+    </rich-text>
+    <rich-text type="p">
+      <rich-text type="span" class="iconfont icon-guojiwuliu"></rich-text>
+      <rich-text type="br"></rich-text>
+      <rich-text type="span" class="aa-title">标题文字</rich-text>
+    </rich-text>
+  </view>
+  <view class="aa-view">
+    <rich-text type="p">
+      <rich-text type="span" class="iconfont icon-guojiwuliu"></rich-text><rich-text type="br"></rich-text>
+      <rich-text type="span" class="aa-title">标题文字</rich-text>
+    </rich-text>
+    <rich-text type="p">
+      <rich-text type="span" class="iconfont icon-guojiwuliu"></rich-text>
+      <rich-text type="br"></rich-text>
+      <rich-text type="span" class="aa-title">标题文字</rich-text>
+    </rich-text>
+  </view>
+  <view class="aa-view">
+    <rich-text type="p">
+      <rich-text type="span" class="iconfont icon-guojiwuliu"></rich-text><rich-text type="br"></rich-text>
+      <rich-text type="span" class="aa-title">标题文字</rich-text>
+    </rich-text>
+    <rich-text type="p">
+      <rich-text type="span" class="iconfont icon-guojiwuliu"></rich-text>
+      <rich-text type="br"></rich-text>
+      <rich-text type="span" class="aa-title">标题文字</rich-text>
+    </rich-text>
+  </view>
+  <view class="aa-view">
+    <rich-text type="p">
+      <rich-text type="span" class="iconfont icon-guojiwuliu"></rich-text><rich-text type="br"></rich-text>
+      <rich-text type="span" class="aa-title">标题文字</rich-text>
+    </rich-text>
+    <rich-text type="p">
+      <rich-text type="span" class="iconfont icon-guojiwuliu"></rich-text>
+      <rich-text type="br"></rich-text>
+      <rich-text type="span" class="aa-title">标题文字</rich-text>
+    </rich-text>
+  </view>
+  <view class="aa-view">
+    <rich-text type="p">
+      <rich-text type="span" class="iconfont icon-guojiwuliu"></rich-text><rich-text type="br"></rich-text>
+      <rich-text type="span" class="aa-title">标题文字</rich-text>
+    </rich-text>
+    <rich-text type="p">
+      <rich-text type="span" class="iconfont icon-guojiwuliu"></rich-text>
+      <rich-text type="br"></rich-text>
+      <rich-text type="span" class="aa-title">标题文字</rich-text>
+    </rich-text>
+  </view>
+  <view class="aa-view">
+    <rich-text type="p">
+      <rich-text type="span" class="iconfont icon-guojiwuliu"></rich-text><rich-text type="br"></rich-text>
+      <rich-text type="span" class="aa-title">标题文字</rich-text>
+    </rich-text>
+    <rich-text type="p">
+      <rich-text type="span" class="iconfont icon-guojiwuliu"></rich-text>
+      <rich-text type="br"></rich-text>
+      <rich-text type="span" class="aa-title">标题文字</rich-text>
+    </rich-text>
+  </view>
+  <view class="aa-view">
+    <rich-text type="p">
+      <rich-text type="span" class="iconfont icon-guojiwuliu"></rich-text><rich-text type="br"></rich-text>
+      <rich-text type="span" class="aa-title">标题文字</rich-text>
+    </rich-text>
+    <rich-text type="p">
+      <rich-text type="span" class="iconfont icon-guojiwuliu"></rich-text>
+      <rich-text type="br"></rich-text>
+      <rich-text type="span" class="aa-title">标题文字</rich-text>
+    </rich-text>
+  </view>
+  <view class="aa-view">
+    <rich-text type="p">
+      <rich-text type="span" class="iconfont icon-guojiwuliu"></rich-text><rich-text type="br"></rich-text>
+      <rich-text type="span" class="aa-title">标题文字</rich-text>
+    </rich-text>
+    <rich-text type="p">
+      <rich-text type="span" class="iconfont icon-guojiwuliu"></rich-text>
+      <rich-text type="br"></rich-text>
+      <rich-text type="span" class="aa-title">标题文字</rich-text>
+    </rich-text>
+  </view>
+</scroll-view>
+<view class="shop bg-c">
+  <image class="shop-img" src="../image/banner.jpg" mode="scaleToFill"></image>
+  <view class="shop-p">【买二送一】OPPO R11 全网通4G手机 前后2000万像素 拍照手机 5.5英寸 oppor11</view>
+  <view class="shop-qian">
+    <text class="shop-5">￥0.01 </text><text class="shop-6">6人团·单买价3200元</text>
+    <text class="shop-7">去开团 ></text>
+  </view>
+</view>
+<view class="shop bg-c">
+  <image class="shop-img" src="../image/banner.jpg" mode="scaleToFill"></image>
+  <view class="shop-p">【买二送一】OPPO R11 全网通4G手机 前后2000万像素 拍照手机 5.5英寸 oppor11</view>
+  <view class="shop-qian">
+    <text class="shop-5">￥0.01 </text><text class="shop-6">6人团·单买价3200元</text>
+    <text class="shop-7">去开团 ></text>
+  </view>
+</view>
+
+<view class="ul">
+  <view class="li bg-c">
+    <image class="ul-img" src="../image/banner.jpg"></image>
+    <view class="li-title">【标题文字】二块钱，只要二块钱，你买不了吃亏买不了上当</view>
+    <view class="li-p">
+      <text style="color: #f00">￥8.9</text>
+      <text class="li-right">已团93456件</text>
+    </view>
+  </view>
+  <view class="li bg-c">
+    <image class="ul-img" src="../image/banner.jpg"></image>
+    <view class="li-title">【标题文字】二块钱，只要二块钱，你买不了吃亏买不了上当</view>
+    <view class="li-p">
+      <text style="color: #f00">￥8.9</text>
+      <text class="li-right">已团93456件</text>
+    </view>
+  </view>
+  <view class="li bg-c">
+    <image class="ul-img" src="../image/banner.jpg"></image>
+    <view class="li-title">【标题文字】二块钱，只要二块钱，你买不了吃亏买不了上当</view>
+    <view class="li-p">
+      <text style="color: #f00">￥8.9</text>
+      <text class="li-right">已团93456件</text>
+    </view>
+  </view>
+  <view class="li bg-c">
+    <image class="ul-img" src="../image/banner.jpg"></image>
+    <view class="li-title">【标题文字】二块钱，只要二块钱，你买不了吃亏买不了上当</view>
+    <view class="li-p">
+      <text style="color: #f00">￥8.9</text>
+      <text class="li-right">已团93456件</text>
+    </view>
+  </view>
+  <view class="li bg-c">
+    <image class="ul-img" src="../image/banner.jpg"></image>
+    <view class="li-title">【标题文字】二块钱，只要二块钱，你买不了吃亏买不了上当</view>
+    <view class="li-p">
+      <text style="color: #f00">￥8.9</text>
+      <text class="li-right">已团93456件</text>
+    </view>
+  </view>
+</view>
+
+
+<text>home/home.wxml{{bb}}</text>
+<p>{{bb}}</p>
+<span class="iconfont icon-guojiwuliu"></span>
+<div bindtap="aa">{{bb}}55555</div>
+</template>

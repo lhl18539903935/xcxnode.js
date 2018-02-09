@@ -1,0 +1,25 @@
+<!--home/home.wxml-->
+<scroll-view
+  class="aa aa1 bg-c"
+  scroll-left="{{scrollLeft}}"
+  scroll-x
+  scroll-with-animation>
+  <view class="a {{scrollId=='a1'?'scorll-id':''}}" id="a1" bindtap="tap">首页</view>
+  <view class="a {{scrollId=='a2'?'scorll-id':''}}" id="a2" bindtap="tap">男装</view>
+  <view class="a {{scrollId=='a3'?'scorll-id':''}}" id="a3" bindtap="tap">电器</view>
+  <view class="a {{scrollId=='a4'?'scorll-id':''}}" id="a4" bindtap="tap">手机</view>
+  <view class="a {{scrollId=='a5'?'scorll-id':''}}" id="a5" bindtap="tap">鞋包</view>
+  <view class="a {{scrollId=='a6'?'scorll-id':''}}" id="a6" bindtap="tap">服饰</view>
+  <view class="a {{scrollId=='a7'?'scorll-id':''}}" id="a7" bindtap="tap">美食</view>
+  <view class="a {{scrollId=='a8'?'scorll-id':''}}" id="a8" bindtap="tap">水果</view>
+  <view class="a {{scrollId=='a9'?'scorll-id':''}}" id="a9" bindtap="tap">百货</view>
+  <view class="a {{scrollId=='a10'?'scorll-id':''}}" id="a10" bindtap="tap">母婴</view>
+  <view class="a {{scrollId=='a11'?'scorll-id':''}}" id="a11" bindtap="tap">家纺</view>
+  <view class="a {{scrollId=='a12'?'scorll-id':''}}" id="a12" bindtap="tap">运动</view>
+  <view class="a {{scrollId=='a13'?'scorll-id':''}}" id="a13" bindtap="tap">水果</view>
+  <view class="a {{scrollId=='a14'?'scorll-id':''}}" id="a14" bindtap="tap">美妆</view>
+</scroll-view>
+<view style="height: 35px;"></view>
+<import src="../test/a/a" />
+<import src="../test/b/b"></import>
+<template is="{{scrollId}}" data="{{scrollId}}"></template>

@@ -1,0 +1,30 @@
+/* home/home.wxss */
+@import "../test/a/a.wxss";
+.bg-c{
+    background-color: #fff;
+}
+.aa{
+    white-space: nowrap;
+    width: 100%;
+}
+.aa1{
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.a{
+    display: inline-block;
+    width: 70px;
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1rpx solid #aaa;
+    box-sizing: border-box;
+    text-align: center;
+    color: #666;
+    font-size: 13px;
+}
+.scorll-id{
+    color: #f00;
+    border-bottom-color:#f00;
+}
+
